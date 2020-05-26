@@ -14,8 +14,6 @@ from statsmodels.graphics.tsaplots import plot_pacf
 from statsmodels.graphics.tsaplots import plot_acf
 from datetime import date
 
-
-
 def create_features(df, calendar, label=None):
 	"""
 	Creates time series features from datetime index
@@ -70,7 +68,11 @@ def mean_absolute_percentage_error(y_true, y_pred):
 calendar = holidays.CountryHoliday('US')
 
 pjme_dataframe = pd.read_csv('PJME_hourly.csv', index_col=[0], parse_dates=[0])
-print(pjme_dataframe.head() )
+pjme_dataframe.index = pd.DatetimeIndex(pjme_dataframe.index)
+pjme_dataframe = pjme_dataframe.sort_index()
+
+# Printing info regarding the dataframe
+print(pjme_dataframe )
 print(pjme_dataframe.describe() )
 print(pjme_dataframe.shape )
 
@@ -91,32 +93,55 @@ pjme_train = pjme_dataframe_lags.iloc[:index_split].copy()
 X_train = X_all.iloc[:index_split].copy()
 y_train = y_all.iloc[:index_split].copy()
 
-pjme_test = pjme_dataframe_lags.iloc[test_start:].copy()
-X_test = X_all.iloc[test_start:].copy()
-y_test = y_all.iloc[test_start:].copy()
+#print(X_train)
 
+pjme_test = pjme_dataframe_lags.iloc[index_split:].copy()
+X_test = X_all.iloc[index_split:].copy()
+y_test = y_all.iloc[index_split:].copy()
 
+#print(X_test)
+
+# XGBoost regressor
 reg = xgb.XGBRegressor(n_estimators=1000, random_state = 42, objective = 'reg:squarederror')
 reg.fit(X_train, y_train, eval_set=[(X_train, y_train), (X_test, y_test)], 
 	early_stopping_rounds=50, verbose=False) # Change verbose to True if you want to see it train
 
-pjme_test['MW_Prediction'] = reg.predict(X_test)
-pjme_all = pd.concat([pjme_test, pjme_train], sort=False)
+# Predictions on test data and plot results
+pmje_prediction = pd.DataFrame()
+pmje_prediction['MW_Prediction'] = reg.predict(X_test)
+pmje_prediction.index = pjme_test.index
 
-_ = pjme_all[['PJME_MW','MW_Prediction']].plot(figsize=(15, 5))
+plt.plot(pjme_dataframe.index, pjme_dataframe['PJME_MW'], label='PJME_MW')
+plt.plot(pmje_prediction.index, pmje_prediction['MW_Prediction'], label='MW_Prediction')
+plt.grid(True)
+plt.ylabel('MW Consumption')
+plt.xlabel('Time')
+plt.legend()
 plt.show()
 
+# Training, testing scores and mean_absolute_percentage_error
 print("Training Score : ", reg.score(X_train, y_train))
-print("Calculate R-square score on test data : ", r2_score(y_test, pjme_test['MW_Prediction']) )
-	
+print("Calculate R-square score on test data : ", r2_score(y_test, pmje_prediction['MW_Prediction']) )
+print("MAPE : ", mean_absolute_percentage_error(y_true=pjme_test['PJME_MW'], 
+	y_pred=pmje_prediction['MW_Prediction']) )
+
+# Results:
+# Training Score :  0.9958982285262815
+# Calculate R-square score on test data :  0.9950827298953134
+# MAPE :  1.0726181128742815
+
+# Feature importance plot
 _ = plot_importance(reg, height=0.9)
 plt.show()
 
-print("MAPE : ", mean_absolute_percentage_error(y_true=pjme_test['PJME_MW'], 
-	y_pred=pjme_test['MW_Prediction']) )
 
+# Taking a look at worst predicted days
+pjme_test['MW_Prediction'] = pmje_prediction['MW_Prediction']
+pjme_test['error'] = pjme_test['PJME_MW'] - pjme_test['MW_Prediction']
+pjme_test['abs_error'] = pjme_test['error'].abs()
+error_by_day = pjme_test.groupby(['year','month','dayofmonth']) \
+    .mean()[['PJME_MW','MW_Prediction','error','abs_error']]
 
+print(error_by_day.sort_values('error', ascending=True).head(10) )
 
-
-
-
+	
