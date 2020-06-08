@@ -103,6 +103,7 @@ y_test = y_all.iloc[index_split:].copy()
 
 # XGBoost regressor
 reg = xgb.XGBRegressor(n_estimators=1000, random_state = 42, objective = 'reg:squarederror')
+#reg.fit(X_train, y_train, early_stopping_rounds=50, verbose=False) # Change verbose to True if you want to see it train
 reg.fit(X_train, y_train, eval_set=[(X_train, y_train), (X_test, y_test)], 
 	early_stopping_rounds=50, verbose=False) # Change verbose to True if you want to see it train
 
