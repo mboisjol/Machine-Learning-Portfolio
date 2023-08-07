@@ -1,0 +1,503 @@
+Montreal QC
+Calgary AB
+Edmonton AB
+Lethbridge AB
+Red Deer AB
+Airdrie AB
+Leduc AB
+Cochrane AB
+Fort Saskatchewan AB
+Sturgeon County AB
+Beaumont AB
+Stony Plain AB
+High River AB
+Lacombe AB
+Coaldale AB
+Lac La Biche County AB
+Raymond AB
+Penhold AB
+Crossfield AB
+Lesser Slave River AB
+Coalhurst AB
+Fox Creek AB
+Fort McMurray AB
+Winnipeg MB
+Brandon MB
+Steinbach MB
+Portage la Prairie MB
+Thompson MB
+Winkler MB
+Selkirk MB
+Morden MB
+Dauphin MB
+Flin Flon MB
+Saskatoon SK
+Regina SK
+Prince Albert SK
+Moose Jaw SK
+Swift Current SK
+Yorkton SK
+North Battleford SK
+Estevan SK
+Lloydminster SK
+Weyburn SK
+Martensville SK
+Warman SK
+Melfort SK
+Humboldt SK
+Meadow Lake SK
+Melville SK
+Moncton NB
+Saint John NB
+Fredericton NB
+Dieppe NB
+Miramichi NB
+Edmundston NB
+Bathurst NB
+Campbellton NB
+Hallifax NS
+Sydney NS
+Truro NS
+New glasgow NS
+Glace Bay NS
+Sydney mines NS
+Kentville NS
+Amherst NS
+Bridgewater NS
+New waterford NS
+Yarmouth NS
+Kingston NS
+Greenwood NS
+Enfield NS
+Lantz NS
+Windsor NS
+Antigonish NS
+St. John's NL
+Conception Bay South NL
+Mount Pearl NL
+Corner Brook NL
+Paradise NL
+Grand Falls-Windsor NL
+Gander NL
+Happy Valley-Goose Bay NL
+Torbay NL
+Labrador City NL
+Portugal Cove St. Philip's NL
+Stephenville NL
+Clarenville NL
+Bay Roberts NL
+Marystown NL
+Deer Lake NL
+Charlottetown PE
+Summerside PE
+Stratford PE
+Cornwall PE
+North Shore PE
+Vancouver BC
+Surrey BC
+Burnaby BC
+Richmond BC
+Abbotsford BC
+Coquitlam BC
+Kelowna BC
+Delta BC
+Nanaimo BC
+Kamloops BC
+Victoria BC
+Chilliwack BC
+Maple Ridge BC
+Prince George BC
+New Westminster BC
+Port Coquitlam BC
+North Vancouver BC
+Vernon BC
+Langford BC
+Penticton BC
+Port Moody BC
+West Kelowna BC
+Campbell River BC
+Langley BC
+Courtenay BC
+Fort St. John BC
+Cranbrook BC
+White Rock BC
+Pitt Meadows BC
+Salmon Arm BC
+Port Alberni BC
+Colwood BC
+Powell River BC
+Parksville BC
+Prince Rupert BC
+Dawson Creek BC
+Terrace BC
+Williams Lake BC
+Nelson BC
+Quesnel BC
+Castlegar BC
+Trail BC
+Revelstoke BC
+Kimberley BC
+Merritt BC
+Fernie BC
+Armstrong BC
+Montreal QC
+Quebec QC
+Laval QC
+Gatineau QC
+Longueuil QC
+Sherbrooke QC
+Saguenay QC
+Levis QC
+Trois-Rivieres QC
+Terrebonne QC
+Saint-Jean-sur-Richelieu QC
+Brossard QC
+Repentigny QC
+Drummondville QC
+Saint-Jerome QC
+Granby QC
+Blainville QC
+Saint-Hyacinthe QC
+Mirabel QC
+Shawinigan QC
+Dollard-des-Ormeaux QC
+Rimouski QC
+Chateauguay QC
+Mascouche QC
+Victoriaville QC
+Saint-Eustache QC
+Rouyn-Noranda QC
+Boucherville QC
+Salaberry-de-Valleyfield QC
+Vaudreuil-Dorion QC
+Sorel-Tracy QC
+Saint-Georges QC
+Val-d'Or QC
+Côte Saint-Luc QC
+Pointe-Claire QC
+Alma QC
+Sainte-Julie QC
+Chambly QC
+Saint-Constant QC
+Boisbriand QC
+Magog QC
+Saint-Bruno-de-Montarville QC
+Sainte-Therese QC
+Thetford Mines QC
+Sept-iles QC
+La Prairie QC
+Beloeil QC
+L'Assomption QC
+Saint-Lambert QC
+Baie-Comeau QC
+Varennes QC
+Candiac QC
+Saint-Lin-Laurentides QC
+Joliette QC
+Westmount QC
+Mount Royal QC
+Kirkland QC
+Saint-Lazare QC
+Riviere-du-Loup QC
+Beaconsfield QC
+Dorval QC
+Saint-Augustin-de-Desmaures QC
+Mont-Saint-Hilaire QC
+Sainte-Marthe-sur-le-Lac QC
+Deux-Montagnes QC
+Saint-Basile-le-Grand QC
+Sainte-Catherine QC
+L'Ancienne-Lorette QC
+Saint-Colomban QC
+Gaspe QC
+Pincourt QC
+Sainte-Anne-des-Plaines QC
+Matane QC
+Dolbeau-Mistassini QC
+Mont-Laurier QC
+Rosemere QC
+Lavaltrie QC
+Cowansville QC
+Sainte-Marie QC
+Mercier QC
+Becancour QC
+Prevost QC
+Sainte-Adele QC
+Beauharnois QC
+Lachute QC
+Amos QC
+Montmagny QC
+La Tuque QC
+L'ile-Perrot QC
+Marieville QC
+Notre-Dame-de-l'ile-Perrot QC
+Saint-Félicien QC
+Saint-Sauveur QC
+Sainte-Agathe-des-Monts QC
+Saint-Raymond QC
+Roberval QC
+Mont-Tremblant QC
+Bois-des-Filion QC
+Carignan QC
+Lorraine QC
+Notre-Dame-des-Prairies QC
+Pont-Rouge QC
+Bromont QC
+Farnham QC
+Coaticook QC
+Otterburn Park QC
+La Malbaie QC
+Nicolet QC
+Saint-Remi QC
+Contrecoeur QC
+Rigaud QC
+Sainte-Catherine-de-la-Jacques-Cartier QC
+Acton Vale QC
+Chandler QC
+Chibougamau QC
+Delson QC
+La Sarre QC
+Donnacona QC
+Louiseville QC
+Baie-Saint-Paul QC
+Brownsburg-Chatham QC
+Coteau-du-Lac QC
+Hampstead QC
+Port-Cartier QC
+Asbestos QC
+Plessisville QC
+Sainte-Anne-des-Monts QC
+Beauceville QC
+Mont-Joli QC
+Amqui QC
+Princeville QC
+Charlemagne QC
+Saint-Cesaire QC
+Lac-Megantic QC
+Saint-Pie QC
+Lac-Brome QC
+L'epiphanie QC
+Windsor QC
+Cookshire-Eaton QC
+Richelieu QC
+Hudson QC
+Toronto ON
+Peel ON
+York ON
+Ottawa ON
+Peel ON
+Durham ON
+Peel ON
+Halton ON
+Hamilton ON
+Waterloo ON
+Niagara ON
+Middlesex ON
+York ON
+York ON
+Simcoe ON
+Waterloo ON
+Essex ON
+York ON
+Oakville ON
+Halton ON
+Essex ON
+Sudbury ON
+Durham ON
+Simcoe ON
+Niagara ON
+Wellington ON
+Waterloo ON
+Whitby ON
+Frontenac ON
+Lambton ON
+Ajax ON
+Oxford ON
+Milton ON
+Thunder Bay ON
+Waterloo ON
+Brant ON
+Grey ON
+Durham ON
+Wellington ON
+Prescott and Russell ON
+Renfrew ON
+Niagara ON
+Northumberland ON
+Newmarket ON
+Peterborough ON
+Kawartha Lakes ON
+Algoma ON
+Lambton ON
+Middlesex ON
+Leeds and Grenville ON
+Caledon ON
+Bruce ON
+Stormont ON
+Dundas ON
+Norfolk ON
+Dufferin ON
+Halton Hills ON
+Muskoka ON
+Lanark ON
+Huron ON
+Peterborough ON
+Aurora ON
+Niagara ON
+Nipissing ON
+Hastings ON
+Elgin ON
+Stormont ON
+Whitchurch-Stouffville ON
+Haldimand ON
+Georgina ON
+Hastings ON
+Lennox and Addington ON
+Cochrane ON
+Oxford ON
+Hastings ON
+Elgin ON
+Perth ON
+Brant ON
+Lakeshore ON
+Innisfil ON
+Bradford West Gwillimbury ON
+New Tecumseth ON
+Perth ON
+Simcoe ON
+Fort Erie ON
+LaSalle ON
+Orangeville ON
+Grimsby ON
+Centre Wellington ON
+Frontenac ON
+Prince Edward ON
+Prescott and Russell ON
+East Gwillimbury ON
+Lincoln ON
+Tecumseh ON
+Woolwich ON
+Amherstburg ON
+Collingwood ON
+Scugog ON
+Kingsville ON
+Leeds and Grenville ON
+Grey ON
+Strathroy-Caradoc ON
+Wasaga Beach ON
+Uxbridge ON
+Essex ON
+Oro-Medonte ON
+King ON
+Huntsville ON
+Cobourg ON
+Wilmot ON
+Niagara ON
+Essa ON
+Niagara ON
+Springwater ON
+South Frontenac ON
+Haliburton ON
+Niagara-on-the-Lake ON
+Petawawa ON
+Pelham ON
+Midland ON
+Selwyn ON
+Loyalist ON
+Bracebridge ON
+Greater Napanee ON
+Tillsonburg ON
+Russell ON
+Kenora ON
+St. Clair ON
+Renfrew ON
+West Lincoln ON
+Clearview ON
+Saugeen Shores ON
+Mississippi Mills ON
+South Glengarry ON
+Ingersoll ON
+South Stormont ON
+Guelph-Eramosa ON
+Severn ON
+Gravenhurst ON
+Perth East ON
+Wellington North ON
+Erin ON
+Brock ON
+Tiny ON
+North Dundas ON
+Algoma ON
+Norwich ON
+Wellesley ON
+Hamilton ON
+Carleton Place ON
+Adjala-Tosorontio ON
+Georgian Bluffs ON
+Hawkesbury ON
+North Glengarry ON
+Rideau Lakes ON
+Mapleton ON
+Timiskaming ON
+Tay ON
+Elizabethtown-Kitley ON
+Laurentian Valley ON
+North Dumfries ON
+Leeds and the Thousand Islands ON
+Ramara ON
+Alfred and Plantagenet ON
+Malahide ON
+Penetanguishene ON
+Arnprior ON
+Smiths Falls ON
+Minto ON
+Mono ON
+Cavan-Monaghan ON
+Champlain ON
+South Bruce Peninsula ON
+Kapuskasing ON
+Renfrew ON
+Shelburne ON
+Zorra ON
+Kirkland Lake ON
+Plympton-Wyoming ON
+Kenora ON
+Fort Frances ON
+Hanover ON
+Goderich ON
+Stone Mills ON
+South-West Oxford ON
+Aylmer ON
+Drummond-North Elmsley ON
+Augusta ON
+McNab-Braeside ON
+Blandford-Blenheim ON
+St. Marys ON
+Southgate ON
+Puslinch ON
+The Blue Mountains ON
+Beckwith ON
+Edwardsburgh-Cardinal ON
+Whitewater Region ON
+East Zorra-Tavistock ON
+Douro-Dummer ON
+Huron-Kinloss ON
+North Stormont ON
+Muskoka Lakes ON
+Otonabee-South Monaghan ON
+Alnwick/Haldimand ON
+Chatsworth ON
+Parry Sound ON
+Wainfleet ON
+Cramahe ON
+Dysart ON
+Perth ON
+Petrolia ON
+Minden Hills ON
+Ashfield-Colborne-Wawanosh ON
+Tay Valley ON
+Cochrane ON
+Gananoque ON
+Lanark Highlands ON
+Hearst ON
+Espanola ON
